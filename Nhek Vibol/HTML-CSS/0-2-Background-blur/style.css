@@ -1,0 +1,57 @@
+/*box sizing*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*html body*/
+html,body{
+    height: 100%;
+    margin: 0;
+    font-family: Ubuntu ,Khmer OS Battambang, sans-serif;
+}
+#bg-img{
+    /*border*/
+    border: 5px solid black;
+    /*Image*/
+    background: url("../images/mcu/mcu-cross-process.jpg") no-repeat center;
+    background-size: cover;
+    /*Blur*/
+    filter: blur(4px);
+    /*full height*/
+    height: 100%;
+}
+#box{
+    /*size*/
+    width: 50%;
+    height: 50%;
+    /*border*/
+    border: 5px solid #ffffff;
+    /*center*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*position*/
+    position: absolute;
+    /*background opacity*/
+    background-color: #ffffff6e;
+    /*display*/
+    display: table;
+}
+.center-text{
+    /*text-align: center;*/
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    /*font size*/
+    font-size: 150%;
+}
+h2.olive {
+    color: #8BC34A;
+}
+h3.grey {
+    color: #607D8B;
+}
+h3.dark-green {
+    color: #009688;
+}

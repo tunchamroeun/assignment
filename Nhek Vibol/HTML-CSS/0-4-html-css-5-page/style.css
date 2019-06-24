@@ -1,0 +1,101 @@
+/*box sizing*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*background pattern resource https://leaverou.github.io/css3patterns/#carbon-fibre*/
+body#pattern{
+    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+/*container*/
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 1px 0 9px 4px #607D8B;
+}
+/*html body*/
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Ubuntu, Khmer OS Battambang, sans-serif;
+}
+/*--------Menu------*/
+/*list style none*/
+ul li{
+    list-style-type: none;
+}
+/*default hide dropdown item*/
+.dropdown .dropdown-item{
+    display: none;
+}
+/*dropdown item*/
+.dropdown .dropdown-item {
+    position: absolute;
+    padding-left: 0;
+    top: 60px;
+}
+ul.dropdown-item li {
+    display: grid;
+}
+/*horizontal menu item*/
+.menu {
+    display: block;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+/*menu item style*/
+.menu ul .menu-item a {
+    padding: 15px 20px;
+    text-decoration: none;
+    margin-right: 3px;
+    background: #009688;
+    color: #fff;
+}
+.menu>ul{
+    display: inline-flex;
+    padding: 0;
+}
+/*banner*/
+.banner {
+    text-align: center;
+    padding: 5px 34px;
+}
+.banner img {
+    width: 100%;
+}
+/*horizontal row*/
+.row {
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/*shadow 3 box each row*/
+.card-shadow {
+    width: 33.333333333%;
+    height: 300px;
+    margin: 15px;
+    box-shadow: 1px 0 9px 4px #0000003d;
+}
+
+/*fit image to image container*/
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*image container*/
+.img-container {
+    width: 100%;
+    height: 80%;
+}
+/*caption text*/
+.text-caption {
+    padding: 10px;
+}
+
